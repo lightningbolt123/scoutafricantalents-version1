@@ -1,0 +1,5 @@
+{% autoescape off %}
+Hi {{ user.username }},
+You were unable to signup to our platform, please visit the link below to choose a plan.
+http://{{ domain }}{% url 'store' %}
+{% endautoescape %}
